@@ -1,0 +1,30 @@
+# --- Secrets ---
+# Ignore environment files containing secret API keys.
+# This is the most important rule!
+.env
+backend/.env
+
+# --- Python / Virtual Environments ---
+# Ignore the virtual environment folder.
+backend/venv/
+# Ignore Python bytecode files and caches.
+__pycache__/
+*.pyc
+
+# --- Node.js / React ---
+# Ignore the massive node_modules folder.
+frontend/node_modules/
+# Ignore the production build folder.
+frontend/build/
+# Ignore log files.
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+
+# --- OS / Editor Specific ---
+# Ignore Visual Studio Code settings folder.
+.vscode/
+# Ignore macOS specific files.
+.DS_Store
+# Ignore Windows thumbnail cache.
+Thumbs.db

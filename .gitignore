@@ -24,7 +24,47 @@ yarn-debug.log*
 # --- OS / Editor Specific ---
 # Ignore Visual Studio Code settings folder.
 .vscode/
+.venv/
 # Ignore macOS specific files.
 .DS_Store
 # Ignore Windows thumbnail cache.
 Thumbs.db
+
+# --- Additional environment and secrets ---
+.env.*
+*.env
+*.key
+*.pem
+*.crt
+*.pfx
+secrets*/
+
+# --- More Python ignores ---
+.pytest_cache/
+.ipynb_checkpoints/
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+venv/
+
+# --- More Node/React ignores ---
+node_modules/
+*.log
+
+# --- Build/coverage caches ---
+dist/
+coverage/
+.cache/
+
+# --- IDEs ---
+.idea/
+*.iml
+
+# --- Jupyter ---
+.jupyter/
+
+# --- Temp ---
+.tmp/
+.temp/
